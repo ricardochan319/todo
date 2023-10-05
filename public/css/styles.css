@@ -15,6 +15,7 @@ h1 {
 }
 
 .content,
+.form,
 .footer {
   display: flex;
   flex-direction: column;
@@ -42,10 +43,10 @@ h1 {
 }
 
 ul {
-  width: 300px;
+  width: 280px;
   list-style-type: none;
   padding: 0;
-  margin: 0;
+  margin: 10px;
 }
 
 li {
@@ -61,6 +62,11 @@ li input[type="checkbox"] {
   margin-right: 50px;
 }
 
+.li-box {
+  background-color: white;
+  border-radius: 5px;
+}
+
 /* Form */
 form {
   background-color: white;
@@ -69,6 +75,8 @@ form {
   justify-content: center;
   align-items: center;
   padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 input {
@@ -93,21 +101,4 @@ button {
 /* Footer */
 footer {
   margin: 20px;
-}
-
-/* Mobile Styles */
-@media screen and (max-width: 768px) {
-  body {
-    font-size: 14px;
-  }
-
-  h1 {
-    width: 100%;
-    padding: 10px;
-  }
-
-  .content,
-  .footer {
-    padding: 5px;
-  }
 }
