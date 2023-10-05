@@ -109,6 +109,14 @@ footer {
 
 /* Media query for screens with a maximum width of 768px */
 @media (max-width: 768px) {
+  li input[type="checkbox"] {
+    width: 50px; /* Set the width to 50px on mobile */
+  }
+
+  li {
+    padding-left: 0;
+  }
+
   input {
     width: 80%;
     padding: 0 10px;
