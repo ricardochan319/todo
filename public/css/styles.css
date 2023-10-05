@@ -50,12 +50,13 @@ ul {
 }
 
 li {
-  height: 50px;
+  height: 80px;
   background-color: white;
   color: #333;
   display: flex;
   align-items: center;
   padding-left: 50px;
+  border-bottom: 1px solid lightgrey;
 }
 
 li input[type="checkbox"] {
