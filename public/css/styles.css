@@ -107,7 +107,7 @@ footer {
 /* Media query for screens with a maximum width of 768px */
 @media (max-width: 768px) {
   input {
-    width: 80%;
+    width: 50%;
     padding: 0 10px;
   }
 }
