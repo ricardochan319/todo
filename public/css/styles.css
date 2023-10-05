@@ -37,6 +37,16 @@ h1 {
   color: white;
 }
 
+.tabs i {
+  margin-right: 10px;
+}
+
+.icon-and-link {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
 /* Task Items */
 .completed span {
   text-decoration: line-through;
