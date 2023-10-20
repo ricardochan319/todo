@@ -14,12 +14,13 @@
         <!-- Create a list item for the work task -->
         <li class="<%= workTask.completed ? 'completed' : '' %>">
           <!-- Checkbox for work task completion, toggles the task completion -->
-          <input type="checkbox" <%= workTask.completed ? 'checked' : '' %>
+          <input type="checkbox" data-task-id="<%= workTask._id %>" <%=
+          workTask.completed ? 'checked' : '' %>
           onchange="toggleTaskCompletion(<%= index %>, 'workTasks')">
+
           <!-- Display the work task description -->
           <span><%= workTask.task %></span>
         </li>
-        <!-- End of the loop -->
         <% }); %>
       </ul>
 
